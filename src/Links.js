@@ -1,7 +1,6 @@
 // Links.js
-
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Links = () => {
   return (
@@ -9,7 +8,7 @@ const Links = () => {
       <h2>Quick Links</h2>
       <ul>
         <li>
-          <Link to="/login">Members Login</Link>
+          <NavLink to="/login">Members Login</NavLink>
         </li>
         {/* Add other links as needed */}
       </ul>
